@@ -1,0 +1,32 @@
+{% extends 'index.html' %}
+
+{% block title %} Accueil {% endblock %}
+
+{% block main %}
+
+<html>
+    <head>
+        <p>
+          Détection d'objets
+        </p>
+        <div className="pre_img">
+          <span><img id="imagebox" src="" >
+            <p id="resultatbox">
+              
+            </p>
+          </span>
+        </div>
+        <form>
+          <input id="imageinput" type="file" name="image" onchange="readUrl(this)">
+        </form>
+        <select id="nn" name="nn">
+          <option value="yolo">Yolo</option>
+          <option value="cnn_c10">CNN_cifar10</option>
+          <option value="cnn_c100">CNN_cifar100</option>
+          <option value="rnn_mnist">RNN_mnist</option>
+        </select>
+      <button name="send" id = "sendbutton">Soumettre</button>
+  </head>
+</html>
+
+{% endblock %}

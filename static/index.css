@@ -1,0 +1,143 @@
+body { 
+  margin:0;  
+  padding:0;  
+  background: no-repeat center center fixed;  
+  background-image: -moz-linear-gradient(#CDCBD0, #F0EDE9);  
+  background-image: -webkit-linear-gradient(#CDCBD0, #F0EDE9);  
+  background-size : cover; }
+  
+
+.main { 
+  margin: auto;  
+  width: 50%;  
+  margin-top: 100px; 
+  background-color: white; 
+  box-shadow: 0px 0px 30px black; 
+  border-radius: 10px;  
+  text-align:center;  
+  padding-top: 10px;  
+  padding-bottom: 40px;  }
+  
+
+h1 { 
+  font-family: Merienda One; 
+  text-shadow: 1px 1px 2px #2C2235;  
+  font-size: 170%; }
+  
+
+form { 
+  font-family: Port Lligat Slab;  
+  text-shadow: 1px 1px 2px white;  
+  text-align: center; }
+  
+
+label { 
+  display: block; 
+  width: 120px; 
+  float:center;  
+  margin-left: 130px; 
+  position: relative; 
+  top: 3px;  }
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;}
+
+
+.App-link {
+  color: #61dafb;}
+
+
+
+.pre_img{
+  height: 600px;
+  width: 600px;
+  /* background-color: white; */}
+
+
+input[type=file]{
+  background: linear-gradient(90deg, #E41937 0%, #A82465 60%, #5236AB 100%);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  margin: 40px 40px;}
+
+
+
+#pre{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  margin: 10px 40px;}
+
+
+p{
+  margin: 0px;
+  font-size: 30px;
+  font-family: Port Lligat Slab;}
+
+#Accueil_color {
+  color:red;
+}
+
+.navbar {
+	background-color: lightslategray;
+	font-size: 1em;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	color: white;
+	padding: 8px 5px 8px 5px;}
+	
+
+.navbar a {
+	text-decoration: none;
+	color: inherit;}
+
+
+.navbar-brand {
+	font-size: 1.2em;
+	font-weight: 600;}
+
+
+.navbar-item {
+	font-variant: small-caps;
+	margin-left: 30px;}
+
+
+.body-content {
+	padding: 5px;
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+
+
+#footer{
+  display: table;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;}
+
+
+.fichiers {
+	text-align: center;
+	list-style-type: circle;
+	font-family: Port Lligat Slab; }
+
+#imagebox{
+  width:100%;
+}
